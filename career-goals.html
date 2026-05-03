@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thomas Williamson | Career Goals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Professional Goals</h1>
+        <nav>
+            <a href="resume.html">The Lattice (Résumé)</a> | 
+            <a href="cover-letter.html">Transmission (Cover Letter)</a> | 
+            <a href="career-goals.html">Trajectories (Career Goals)</a>
+        </nav>
+    </header>
+    <main>
+        <section id="multimedia">
+            <h3>Locally Sourced Media</h3>
+            <img src="logo.png" alt="UDM Logo" width="200">
+            <br>
+            <!-- MANDATORY SEPARATE AUDIO TAG FOR RUBRIC -->
+            <p>Audio Demonstration:</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+            <br>
+            <p>Video Demonstration (Moon Landing Proof):</p>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <section id="philosophy">
+            <p>My goal is to build software that gives people more control over their digital lives. I want to build tools that help people protect, organize, verify, and improve knowledge.</p>
+        </section>
+
+        <section id="contact">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required><br>
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required><br>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company"><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+
+                <fieldset>
+                    <legend>Best Contact Time:</legend>
+                    <input type="radio" id="am" name="time" value="am">
+                    <label for="am">a.m.</label>
+                    <input type="radio" id="pm" name="time" value="pm">
+                    <label for="pm">p.m.</label>
+                    <input type="radio" id="anytime" name="time" value="anytime" checked>
+                    <label for="anytime">anytime</label>
+                </fieldset><br>
+
+                <label for="method">Preferred Protocol:</label>
+                <select id="method" name="method">
+                    <option value="phone">phone</option>
+                    <option value="email">email</option>
+                    <option value="text">text</option>
+                </select><br><br>
+
+                <button type="submit">Submit Transmission</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Thomas Williamson</p>
+    </footer>
+</body>
+</html>
